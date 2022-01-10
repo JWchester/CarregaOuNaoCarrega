@@ -32,7 +32,7 @@ def soma_32_bits(b1, b2):
 def principal():
     while True:
         while True:
-            Decimal = input("Digita dois numeros seguido de um espaço entre eles verme insolente: ").split(" ")
+            Decimal = input("Digite dois numeros seguido de um espaço entre eles:  ").split(" ")
 
             try:
 
@@ -40,7 +40,7 @@ def principal():
                 Decimal2 = int(Decimal[1])
                 break
             except:
-                print("digite do jeito que informei a cima seu disgramado (sto enbrabecido)")
+                print("digite extamente como foi informado!")
 
 
         global vetor
