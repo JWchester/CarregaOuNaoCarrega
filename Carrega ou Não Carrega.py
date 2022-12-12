@@ -7,7 +7,7 @@ def divisao_sucessiva(recebe_Entrada):
     
     vetor.append(Entrada2)
     if (parada!= 0):
-        return divisao_sucessiva(parada)
+        return divisao_sucessiva(parada) #uso inadequado da recursividade!!!!
     else:
         resultado = []
         for i in range(-1,-len(vetor)-1,-1):
